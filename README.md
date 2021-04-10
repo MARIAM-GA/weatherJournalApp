@@ -5,15 +5,15 @@
 This project is  an asynchronous web app that uses Web API and user data to dynamically update the UI. 
 ## properties of this project
 
-###Created by using HTML& css &javascript &the DOM& NODE JS
-###this project  includes
-        ####Set up a Node and Express environment to develop a web application on a  local machine
-        ####Set up a server and route data through a web app
-        ####Integrate an external API into a web app and data routes
-        ####Use HTTP POST & GET requests to create  data in the app
-        ####Use the JavaScript Fetch API to update the UI based on HTML input forms and external API data
+### Created by using HTML& css &javascript &the DOM& NODE JS
+### this project  includes
+        #### Set up a Node and Express environment to develop a web application on a  local machine
+        #### Set up a server and route data through a web app
+        #### Integrate an external API into a web app and data routes
+        #### Use HTTP POST & GET requests to create  data in the app
+        #### Use the JavaScript Fetch API to update the UI based on HTML input forms and external API data
 ## Instructions 
-###set up the project environment. installed  Node from the terminal
+### set up the project environment. installed  Node from the terminal
          #### create a package.json file use "npm init" command
          ####  Install the packages Express, Body-Parser, and Cors from the terminal 
                   "npm install express --save"
@@ -32,7 +32,7 @@ This project is  an asynchronous web app that uses Web API and user data to dyna
                  base url
                  user entered zip code (see input in html with id zip)
                  personal API key
-###make a POST request to add the API data,  data entered by the user, to the app.
+### make a POST request to add the API data,  data entered by the user, to the app.
              #### write another async function to make this POST request.
              #### The function should receive a path and a data object.
              ####The data object should include (temperature,date,user response)
